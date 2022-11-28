@@ -1,11 +1,11 @@
 # Application-web-bas-e-sur-MVC2-et-JPA
 L’objectif principal de cet atelier et de maitriser l’API JPA « java persistance API » par la mise en place d’une application web qui simule le comportement d’un site web e-Commerce, la partie contrôleur de cette application sera basé su le MVC 2 c.à.d. une Servlet va contenir tous les actions nécessaire liées à une gestion spécifique.
 
-# Architecture du Projet
-![image](https://user-images.githubusercontent.com/101791324/204232363-36e0ba02-d600-4bef-9b30-7e408a92a374.png)
-
 # Home
 ![image](https://user-images.githubusercontent.com/101791324/204267729-43f4e9bf-6bf2-4a0a-8a87-7a304cce76ab.png)
+
+# Architecture du Projet
+![image](https://user-images.githubusercontent.com/101791324/204232363-36e0ba02-d600-4bef-9b30-7e408a92a374.png)
 
 
 Créez un projet Web dynamique avec un web module d’une version supérieur à 3 ensuite convertissez le projet vers un projet Maven puis ajoutez les dépendances Mysql-Connector, JPA au niveau du fichier pom.xml.
