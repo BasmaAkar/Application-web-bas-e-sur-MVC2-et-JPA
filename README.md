@@ -4,21 +4,6 @@ L’objectif principal de cet atelier et de maitriser l’API JPA « java persis
 
 Créez un projet Web dynamique avec un web module d’une version supérieur à 3 ensuite convertissez le projet vers un projet Maven puis ajoutez les dépendances Mysql-Connector, JPA au niveau du fichier pom.xml.
 ### 
-<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-<dependency>
-<groupId>mysql</groupId>
-<artifactId>mysql-connector-java</artifactId>
-<version>8.0.12</version>
-</dependency>
-<dependency>
-<groupId>org.eclipse.persistence</groupId>
-<artifactId>javax.persistence</artifactId>
-<version>2.0.0</version>
-</dependency>
-<dependency>
-<groupId>org.eclipse.persistence</groupId>
->artifactId>eclipselink</artifactId<
->version>2.7.5</version<
->dependency/<
-_### **Etape 3 :
+
  créez la couche model/persistance en utilisation les entités et les transactions JPA, puis générez la BDD au niveau de la SGBD MYSQL, n’oubliiez pas de mettre en place les fichiers de configuration nécessaires pour le bon fonctionnement de l’API JPA .
+![image](https://user-images.githubusercontent.com/101791324/204232363-36e0ba02-d600-4bef-9b30-7e408a92a374.png)
